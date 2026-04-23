@@ -7,3 +7,6 @@ variable "instance_type" {
 variable "server_name" {
   default = "MyServer"
 }
+variable "subnet_id" {
+  default = "subnet-04d41fbb695e68819"
+}
